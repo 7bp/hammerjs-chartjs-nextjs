@@ -1,3 +1,4 @@
+if (typeof window !== "undefined") {
 /*! Hammer.JS - v2.0.8 - 2016-09-30
  * http://hammerjs.github.io/
  *
@@ -3238,3 +3239,4 @@ if (typeof define === 'function' && define.amd) {
 }
 /* jshint ignore:end */
 })(window, document, 'Hammer');
+}
